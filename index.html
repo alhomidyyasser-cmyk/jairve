@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>J.A.R.V.I.S. Dashboard Launcher</title>
+  <style>
+    :root { color-scheme: dark; font-family: "Segoe UI", sans-serif; background: #050b12; color: #d8edf2; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; }
+    main { width: min(520px, calc(100% - 40px)); padding: 32px; border: 1px solid #126276; background: #09141e; box-shadow: 0 0 40px #00d9ff18; }
+    h1 { margin: 0 0 10px; color: #00e5ff; font-size: 1.4rem; letter-spacing: .12em; }
+    p { line-height: 1.6; color: #a9c1cb; }
+    code { color: #b7f7ff; }
+    a { display: inline-block; margin-top: 12px; padding: 11px 16px; border: 1px solid #00e5ff; color: #00e5ff; text-decoration: none; }
+    a:hover, a:focus-visible { background: #00e5ff; color: #051018; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>J.A.R.V.I.S.</h1>
+    <p>The interactive dashboard and webcam tracker run in the Python application. Install the dependencies, then start the project from this folder with:</p>
+    <p><code>python jarvis.py</code></p>
+    <p>Keep the terminal open while using the app. The server prints the dashboard address and attempts to open it in your browser. The webcam is accessed by Python, not by this HTML file.</p>
+    <a href="http://127.0.0.1:8765/">Open dashboard (default address)</a>
+  </main>
+</body>
+</html>
